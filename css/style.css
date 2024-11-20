@@ -1,0 +1,102 @@
+* {
+    font-family:'Geist Mono', monospace;
+}
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+header .logo {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #ffc107;
+    font-weight: 600;
+    padding: 1.25rem;
+}
+.header-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px; /* Optional for rounded corners */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5); /* Optional for visual depth */
+}
+.hero h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+.hero p {
+    font-size: 1.2rem;
+}
+.hero-links {
+    margin: auto;
+    max-width: 48rem;
+    padding-top: 12rem;
+    display: flex;
+    align-items: center
+    
+}
+
+.hero-links div a {
+    display: block;
+    width: 48px;
+    height: 48px;
+    border-radius: 32px;
+    padding: 0px
+}
+
+@media (min-width: 320px) {
+    .hero-links div a {
+        width:64px;
+        height: 64px;
+        padding: 8px
+    }
+}
+
+.hero-links {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: auto !important;
+    max-width: 512px;
+}
+
+.hero-links div {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+section {
+    margin-bottom: 2rem;
+}
+section h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+footer p {
+    font-size: 0.9rem;
+    margin: 0;
+}
+
+.contract-address {
+    font-size: 1.25rem;
+    word-wrap: break-word;
+    /* 
+    padding: 0.75rem;
+    border-radius:1rem;
+    outline: 2px solid red;
+    width:auto; 
+    */
+}
+
+.btn-cta {
+    background-color: orange !important;
+    color:rgba(0, 0, 0, 0.9) !important;
+    font-size: 1.25rem !important;
+    font-weight: 600 !important;
+    border-radius: .75rem !important;
+}
+
+.btn-cta:hover {
+    background-color: rgb(255, 181, 97) !important;
+    color:rgba(0, 0, 0, 0.9) !important;
+    box-shadow:0 .5rem .5rem rgba(0, 0, 0, 0.25)
+}
