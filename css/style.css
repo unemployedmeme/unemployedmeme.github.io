@@ -113,15 +113,14 @@ footer p {
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Optional: Add a shadow */
 }
 
+.video-item:hover video {
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+}
+
 video {
     width: 100%;
     height: auto;
     display: block;
     border-radius: 10px; /* Match the container's rounded corners */
 }
-
-.video-item:hover video {
-    transform: scale(1.05);
-    transition: transform 0.3s ease;
-}
-
